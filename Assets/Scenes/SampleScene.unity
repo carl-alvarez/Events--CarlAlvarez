@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.09721291, g: 0.093458205, b: 0.07045506, a: 1}
+  m_IndirectSpecularColor: {r: 0.023266578, g: 0.017565561, b: 0.011452144, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -167,7 +167,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.7462845, a: 1}
-  m_Intensity: 4
+  m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -261,7 +261,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.033079915, b: 0.0047169924, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -415,7 +415,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571569390}
-  - component: {fileID: 571569391}
   m_Layer: 0
   m_Name: Combo4
   m_TagString: Untagged
@@ -440,22 +439,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &571569391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571569389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd75a76ea57642742bdc0c94fd39fe50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1: {fileID: 591985568}
-  C2: {fileID: 1180258842}
-  C3: {fileID: 2100019066}
-  C4: {fileID: 571569389}
 --- !u!1 &591985568
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +448,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 591985569}
-  - component: {fileID: 591985570}
   m_Layer: 0
   m_Name: Combo1
   m_TagString: Untagged
@@ -490,22 +472,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &591985570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591985568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71e9fe3fcf4d10f489b80045fa6f7fa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1: {fileID: 591985568}
-  C2: {fileID: 1180258842}
-  C3: {fileID: 2100019066}
-  C4: {fileID: 571569389}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,14 +558,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: -0.025284966, y: -0.25873032, z: -0.0067750853, w: 0.9655948}
+  m_LocalRotation: {x: 0.018577568, y: -0.97097343, z: -0.08034041, w: -0.2245237}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -3, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: -9.46, y: -206.04, z: 0}
 --- !u!1 &754125204
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +643,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.5797378, b: 0, a: 1}
-  m_Intensity: 5.15
+  m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -952,7 +918,6 @@ GameObject:
   - component: {fileID: 1111369660}
   - component: {fileID: 1111369659}
   - component: {fileID: 1111369663}
-  - component: {fileID: 1111369664}
   m_Layer: 0
   m_Name: DanceFloor
   m_TagString: Untagged
@@ -994,7 +959,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 89eaf38d6a6e2b44cb21524144420ecb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1051,22 +1016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3f52bd8b5339a49a00d4ed1fefead8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1111369664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111369658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17ff73e97b3b79b4f9d0f1f366a02f55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1: {fileID: 591985568}
-  C2: {fileID: 1180258842}
-  C3: {fileID: 2100019066}
-  C4: {fileID: 571569389}
 --- !u!1 &1111972075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1060,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.25943398, g: 1, b: 0.47509965, a: 1}
-  m_Intensity: 4
+  m_Intensity: 6
   m_Range: 9.6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1203,7 +1152,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1180258843}
-  - component: {fileID: 1180258844}
   m_Layer: 0
   m_Name: Combo2
   m_TagString: Untagged
@@ -1228,22 +1176,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1180258844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180258842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7ac55e18ce5944baf74d5258012677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1: {fileID: 591985568}
-  C2: {fileID: 1180258842}
-  C3: {fileID: 2100019066}
-  C4: {fileID: 571569389}
 --- !u!1 &1184951789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1220,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.08220887, g: 1, b: 0, a: 1}
-  m_Intensity: 1.72
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1382,7 +1314,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0, g: 0.35566998, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1604,7 +1536,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.45679283, a: 1}
-  m_Intensity: 3.3
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1698,7 +1630,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5.33
+  m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2441,7 +2373,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2100019067}
-  - component: {fileID: 2100019068}
   m_Layer: 0
   m_Name: Combo3
   m_TagString: Untagged
@@ -2466,22 +2397,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2100019068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100019066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcbb97fb4d54f1649a86dfeb683e8a6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1: {fileID: 591985568}
-  C2: {fileID: 1180258842}
-  C3: {fileID: 2100019066}
-  C4: {fileID: 571569389}
 --- !u!1 &2119090024
 GameObject:
   m_ObjectHideFlags: 0
