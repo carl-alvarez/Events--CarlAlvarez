@@ -8,24 +8,32 @@ public class _djSet1 : MonoBehaviour
     public GameObject C2;
     public GameObject C3;
     public GameObject C4;
+
+private bool comboUno = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _EventManager.djSet1 += _combo1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _EventManager.djSet1 += _combo1;
-    }
-
-    void _combo1()
-    {
-        C1.SetActive(true);
+        if (comboUno == true){
+	C1.SetActive(true);
         C2.SetActive(false);
         C3.SetActive(false);
         C4.SetActive(false);
         Debug.Log("Estas escuchando Chicken Dance");
+
+}
     }
+
+    void _combo1()
+    {
+     	   comboUno = true;
+    }
+
+	void OnDisable(){
+}
 }
